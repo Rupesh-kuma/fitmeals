@@ -1,0 +1,91 @@
+.header_imag{
+    height: 450px;
+    width: 100%;
+}
+
+
+.view_sample{
+    margin-top: 100px;
+    background-color: #f3f5ed;
+}
+.carousel-indicators [data-bs-target] {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+    border-color: #cacdc9;
+}
+.image-width{
+    margin: 0 auto;
+    width: 70%;
+}
+.week_bg{
+    background-color: #8EC038;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.choose{
+    padding-top: 11%;
+}
+.carousel_widths{
+    width: 300px;
+    height: 400px;
+}
+/* .diaries_p{
+    padding-left:  150px;
+    padding-right: 3px;
+} */
+.box-colors{
+    color: #8EC038;
+}
+.box-color{
+    border:3px solid #8EC038;
+    border-radius: 30px;
+}
+.Maintenancelook{
+    background-color: #cacdc9;
+    margin-top: 100px;
+}
+.Transformationlook{
+    margin-top: 100px;
+    background-color: #cacdc9;
+}
+.transformationorder_padding{
+    padding: 10px 60px;
+}
+.line{
+    line-height: 3rem;
+}
+.Transformation_bg{
+    background-color: #292d35;
+}
+.banner{
+    background-image: url("../blog.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    background-size: 100%;
+    /* backface-visibility: 0.4; */
+}
+.btn-dangers{
+    background-color: #e91e63;
+    color: #ffffff;
+}
+.btn-dangers:hover{
+    background-color: #292d35;
+    color: #ffffff;
+    border-color:#292d35 ;
+}
+.week_border{
+    border-radius: 30px;
+}
+.work_bgs{
+    background-color: #ffffff;
+}
+.orders{
+    padding: 50px 0;
+}
+.athleticorder{
+    /* margin: 60px 0; */
+    margin-top: 3rem;
+    margin-bottom: 8rem;
+}

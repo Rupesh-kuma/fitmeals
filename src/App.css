@@ -1,0 +1,8 @@
+@import './home/home.css';
+.fix{
+    position: fixed;
+    z-index: 199;
+    right: 0;
+    left: 0;
+    top: 0;
+}

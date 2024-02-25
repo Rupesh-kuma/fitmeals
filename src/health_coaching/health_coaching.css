@@ -1,0 +1,41 @@
+.laper{
+    top: 200px;
+    bottom: 0;
+    z-index: 10;
+
+}
+.img_height{
+    height: 700px;
+}
+.helps-bg{
+    background-color: #8EC038;
+}
+.al_item{
+    align-items: center;
+}
+.life_img{
+    border: 4px solid #8EC038;
+}
+.icon_work{
+    width: 100px;
+    height: 100px;
+    background-color: #8EC038;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.work_bg{
+    background-color: #f3f5ed;
+}
+.banner-header{
+    font-size: 60px;
+}
+.health_marings{
+    margin-top: 204px;  
+}
+.appointment_img{
+    border-radius: 50px;
+}
+.home_h3{
+    font-size: 72px;
+}

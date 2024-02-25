@@ -1,0 +1,20 @@
+.blog_img{
+    width: 100px;
+    height: 200px;
+    /* display: flex; */
+    border-radius: 50px;
+    margin: 0 auto;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.hafsaa_color{
+    color: #8ec038;
+}
+.Categories{
+    border-bottom: 2px solid #8ec038;
+}
+.view_more{
+    margin-right: 210px;
+    font-size: 17px;
+    
+}

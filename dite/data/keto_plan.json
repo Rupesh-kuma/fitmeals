@@ -1,0 +1,23 @@
+[
+    {
+        "id":"1_week_keto_plan",
+        "url": "https://www.fitmeals.co.in/wp-content/uploads/2021/05/IMG_0148-550x515.jpg",       
+        "title":"1 Week Keto Plan",
+        "paragraph":"Starting From 2400/-",
+        "price":0.00
+    },
+    {
+        "id":"2_week_keto_plan",
+        "url": "https://www.fitmeals.co.in/wp-content/uploads/2021/05/IMG_0148-550x515.jpg",       
+        "title":"2 Weeks Keto Plan",
+        "paragraph":"Starting from 4920/-",
+        "price":0.00
+    },
+    {
+        "id":"4_week_keto_plan",
+        "url": "https://www.fitmeals.co.in/wp-content/uploads/2021/05/IMG_0148-550x515.jpg",       
+        "title":"4 Weeks Keto Plan",
+        "paragraph":"Starting from 8640/-",
+        "price":0.00
+    }
+]

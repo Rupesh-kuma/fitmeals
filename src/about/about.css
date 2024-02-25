@@ -1,0 +1,31 @@
+.began{
+    background-color: #b2b2b2;
+}
+.mission{
+    border: 4px solid #8ec038;
+    border-radius: 15px;
+    padding: 60px 30px;
+}
+.mission_color{
+    color: #8ec038;
+}
+.mission-bg{
+    background-color: #f3f5ed;
+}
+.helpbtn{
+    background-color: #f3f5ed;
+    padding: 20px 50px;
+    border-radius: 20px;
+}
+.faqbotton{
+    margin-top: 100px;
+}
+.faq-icon{
+    color: #8ec038;
+}
+.test-padding{
+    padding: 45px 30px 95px;
+}
+.img_icon{
+    width: 80px;
+}
