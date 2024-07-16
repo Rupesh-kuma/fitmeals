@@ -5,9 +5,7 @@
     background-color: #f3f5ed;
     
 }
-.choose-height{
-    height: 90rem;
-}
+
 #meals{
     background-color: #8ec038;
     height: 760px;
@@ -15,7 +13,7 @@
 }
 .meals_top{
     bottom: 0;
-    top: 60rem;
+    top: 70%;
     background-image: url("../veg_pattern.png");
 }
 .nutrion_img{
@@ -76,7 +74,7 @@
     backface-visibility: 0.4;
 }
 .carousel_width{
-    height: 500px;
+    height: 400px;
 }
 .informetion{
     background-color: #8ec038;
@@ -118,6 +116,8 @@ border-bottom: 0 solid transparent;
     font-family: 'open Sans';
 }
 .banners_home{
+    top: 98px;
+    right: 0;
     overflow: hidden;
     width: 100%;
     
@@ -128,9 +128,11 @@ border-bottom: 0 solid transparent;
     animation:zoom 50s linear infinite;
 
 }
-.slidershows{
-   opacity: 0.5;
-    /* zoom: 1; */
+.slidershows::before{
+    content: "";
+    position: absolute;
+    background-color: aquamarine;
+   /* opacity: 0.5; */
     
 }
 @keyframes zoom {
@@ -146,9 +148,6 @@ border-bottom: 0 solid transparent;
     100%{
         transform: scale(1.80);
     }
-}
-.carousel_items{
-    height: 100vh;
 }
 .need_rounded{
     animation: pend 1s  alternate ease-in-out; 
@@ -277,6 +276,48 @@ border-bottom: 0 solid transparent;
     font-size: 18px;
 }
 .home_h2{
-    font-size: 48px;
+    /* font-size: 48px; */
     line-height: 1.3em;
 }
+
+/* slider */
+
+.wrapper{
+    padding: 70px 0;
+    overflow-x: hidden;
+  }
+  
+  .my-slider {
+    padding: 0 70px;
+  }
+  
+  .slick-initialized .slick-slide{
+    color: #FFF;
+    height: 200px;
+    margin: 0 15px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .slick-next, .slick-prev {
+    z-index: 5;
+  }
+  
+  .slick-next {
+    right: 15px;
+  }
+  
+  .slick-prev {
+    left: 15px;
+  }
+  
+  .slick-next:before, .slick-prev:before {
+    color: #000;
+    font-size: 26px;
+  }
+  @media screen and (max-width: 374px) {
+    .meals_top {
+      top: 91% !important;
+    }
+  }

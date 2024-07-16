@@ -117,9 +117,9 @@ const Meal = () => {
                     // </div>
                     )}
                 </div>
-                <div className="d-flex justify-content-between position-absolute top-0 nutrion_img end-0 botton-0 gap-5">
-                    <div className=""><img src="../image/home/nutrion-left.png" /></div>
-                    <div><img src="../image/home/nutrion-right.png" /></div>
+                <div className="d-lg-flex d-sm-block justify-content-between position-absolute top-0 nutrion_img end-0 botton-0 gap-5">
+                    <div className=""><img src="../image/home/nutrion-left.png" className="w-100"/></div>
+                    <div><img src="../image/home/nutrion-right.png" className="w-100" /></div>
                 </div>
             </div>
         </>

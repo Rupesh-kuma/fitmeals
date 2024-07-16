@@ -18,8 +18,8 @@ const Fitmeals = () => {
   return (
     <>
       <div id="fitmeals" className="position-relative choose-height">
-        <div className="container">
-          <div className="fitmeals_padding">
+        <div className="container ">
+          <div className="lg-fitmeals_padding sm-p-1">
             <span
               className="text-center  d-block fs-1 Sacramento_font"
               style={{ color: "#8ec038" }}
@@ -34,11 +34,11 @@ const Fitmeals = () => {
               version of yourself. .
             </p>
           </div>
-          <div className="row row-cols-1 row-cols-md-1 g-4 mt-3">
+          <div className="row row-cols-1 row-cols-md-4 row-cols-lg-4 row-cols-sm-2 row-cols-xs-2 g-4 mt-3">
             {data.map((item) => {
               return (
-                <div className="col-md-3 position-relative" key={`plan_${item.id}`}>
-                  <div className="text-center">
+                <div className="col position-relative" key={`plan_${item.id}`}>
+                  <div className=" text-center">
                     <i
                       className={`fa-solid fs-1 text-light p-4 icon ${item.icon}`}
                     ></i>
@@ -47,7 +47,6 @@ const Fitmeals = () => {
                       <p className="card-text lh-lg">{item.description}</p>
                     </div>
                   </div>
-                    <span className="after_line"></span>
                 </div>
               );
             })}
@@ -56,7 +55,7 @@ const Fitmeals = () => {
           <div className="mt-5">
             <img
               src="./image/home/rotate.jpg"
-              className="card-img-top rotate  mx-auto mt-4 w-100"
+              className="card-img-top rotate  mx-auto mt-4 "
               alt="rotate"
             />
           </div>

@@ -25,12 +25,12 @@ const Clients=()=>{
                         <h2>Divya</h2>
                     </div> 
                 </div>
-                <div className="d-flex justify-content-between">
+                <div className="d-lg-flex justify-content-between d-none">
                 <button className="carousel-control-prev carousel_left" type="button" data-bs-target="#carouselExampleCaption" data-bs-slide="prev">
                     <span className="carousel fa-solid fa-arrow-left fs-1 rounded-circle py-3 px-3 text-dark border border-secondary mari" aria-hidden="true"></span>
                     <span className="visually-hidden">Previous</span>
                 </button>
-                <button className="carousel-control-next carousel_right" type="button" data-bs-target="#carouselExampleCaption" data-bs-slide="next">
+                <button className="carousel-control-next  carousel_right " type="button" data-bs-target="#carouselExampleCaption" data-bs-slide="next">
                     <span className="carousel-control fa-solid fa-arrow-right fs-1 text-dark rounded-circle border border-secondary py-3 px-3 mari" aria-hidden="true"></span>
                     <span className="visually-hidden">Next</span>
                 </button>
