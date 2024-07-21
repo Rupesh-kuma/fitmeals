@@ -11,7 +11,7 @@ const Informetion = () => {
             new products, recipes & nutrition tips.
           </p>
           <div className="d-flex justify-content-center widths_form mx-auto">
-          <form className="d-flex text-center position-relative w-50">
+          <form className="d-flex text-center position-relative w-75">
             <input
               className="form-control w-100 px-5 py-3 rounded-pill "
               type="search"

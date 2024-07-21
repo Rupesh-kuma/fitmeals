@@ -9,7 +9,8 @@ const Meal = () => {
 
     return (
         <>
-            <div id="meals" className="position-absolute meals_top start-0 end-0">
+
+            <div id="meals" className="position-absolute meals_top start-0 end-0  pt-4">
                 <div className="container bg-light my-5 p-4 box_shadow left_img position-relative">
                     
                     <div className="pt-5">
@@ -20,17 +21,17 @@ const Meal = () => {
                     </div>
 
 
-                    <div className="d-flex justify-content-around mt-4" role="group" >
-                        <button onClick={() => handleButtonClick("weight")}   className={`btn rounded-pill btns ${activeSection === "weight" ? 'active' : ''}`} data-bs-toggle="collapse"  role="button" aria-expanded="true" aria-controls="weight">
+                    <div className="row row-cols-1 row-cols-lg-4 row-cols-md-4 row-cols-sm-2 mt-4" role="group" >
+                        <button onClick={() => handleButtonClick("weight")}   className={`btn rounded-pill btns col ${activeSection === "weight" ? 'active' : ''}`} data-bs-toggle="collapse"  role="button" aria-expanded="true" aria-controls="weight">
                             Weight Loss Meal Plan
                         </button>
-                        <button onClick={() => handleButtonClick("athletic")} className={`btn rounded-pill btns ${activeSection === "athletic" ? 'active' : ''}`} data-bs-toggle="collapse" href="#athletic" role="button" aria-expanded="false" aria-controls="athletic">
+                        <button onClick={() => handleButtonClick("athletic")} className={`btn rounded-pill btns col ${activeSection === "athletic" ? 'active' : ''}`} data-bs-toggle="collapse" href="#athletic" role="button" aria-expanded="false" aria-controls="athletic">
                             Athletic Meal Plan
                         </button>
-                        <button onClick={() => handleButtonClick("maintenance")}  className={`btn rounded-pill btns ${activeSection === "maintenance" ? 'active' : ''}`} data-bs-toggle="collapse" href="#maintenance" role="button" aria-expanded="false" aria-controls="maintenance">
+                        <button onClick={() => handleButtonClick("maintenance")}  className={`btn rounded-pill btns col ${activeSection === "maintenance" ? 'active' : ''}`} data-bs-toggle="collapse" href="#maintenance" role="button" aria-expanded="false" aria-controls="maintenance">
                             Maintenance Meal Plan
                         </button>
-                        <button onClick={() => handleButtonClick("keto")}  className={`btn rounded-pill btns ${activeSection === "keto" ? 'active' : ''}`} data-bs-toggle="collapse" href="#keto" role="button" aria-expanded="false" aria-controls="keto">
+                        <button onClick={() => handleButtonClick("keto")}  className={`btn rounded-pill btns col ${activeSection === "keto" ? 'active' : ''}`} data-bs-toggle="collapse" href="#keto" role="button" aria-expanded="false" aria-controls="keto">
                             Keto Meal Plan
                         </button>
                     </div>
@@ -117,9 +118,9 @@ const Meal = () => {
                     // </div>
                     )}
                 </div>
-                <div className="d-lg-flex d-sm-block justify-content-between position-absolute top-0 nutrion_img end-0 botton-0 gap-5">
-                    <div className=""><img src="../image/home/nutrion-left.png" className="w-100"/></div>
-                    <div><img src="../image/home/nutrion-right.png" className="w-100" /></div>
+                <div className="row position-absolute top-0 nutrion_img end-0 botton-0 start-0 w-100 ">
+                    <div className="col-6"><img src="../image/home/nutrion-left.png" className="w-100 h-50 position-relative" style={{right:"25%"}}/></div>
+                    <div className="col-6"><img src="../image/home/nutrion-right.png" className="w-100 h-50" /></div>
                 </div>
             </div>
         </>

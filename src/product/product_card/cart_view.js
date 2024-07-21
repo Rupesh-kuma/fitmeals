@@ -65,7 +65,7 @@ const Cart = () => {
       <div className="container">
         <div className="tables_marging">
           <table className="table">
-            <thead className="border bg-dark text-light text-center">
+            <thead className="border bg-dark text-light text-center tables-ds">
               <th></th>
               <th></th>
               <th className="pt-3 pb-3">Product</th>
@@ -78,7 +78,7 @@ const Cart = () => {
                 console.log('......Cart', products.quantity);
                 return (
                   <>
-                    <tr key={i}>
+                    <tr key={i} className="tables-ds">
                       <td className="p-4">
                         <button
                           onClick={() => removeCart(products.id)}
@@ -106,8 +106,9 @@ const Cart = () => {
                         </b>
                       </td>
                       <td className="py-4">
-                        <div className="quantity d-block border">
+                        <div className="quantity  border">
                           <span className=" p-3"> {products.quantity}</span>
+                          <div>
                           <button
                             key="increase"
                             onClick={(event) =>
@@ -132,11 +133,12 @@ const Cart = () => {
                                 products.quantity - 1
                               )
                             }
-                            className="border border-0 me-2 ms-5 bg-transparent"
+                            className="border border-0 me-2  bg-transparent"
                             name="decrease"
                           >
                             <i className="fa-solid fa-angle-down"></i>
                           </button>
+                          </div>
                         </div>
                       </td>
                       <td className="p-4">

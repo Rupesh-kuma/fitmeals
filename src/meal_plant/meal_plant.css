@@ -63,7 +63,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     width: 100%;
-    background-size: 100%;
+    background-size: cover;
     /* backface-visibility: 0.4; */
 }
 .btn-dangers{

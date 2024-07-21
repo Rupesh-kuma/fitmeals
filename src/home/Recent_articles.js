@@ -14,7 +14,7 @@ const Recent = () => {
               <div className="position-relative">
               <img
                 src="./image/home/unnamed.jpg"
-                className="card-img-top"
+                className="card-img-top w-100"
                 alt="unnamed"
               />
               <button className="btn view rounded-pill w-50  position-absolute recent_marg">Uncategorized</button>
@@ -40,7 +40,7 @@ const Recent = () => {
               <div className="position-relative">
               <img
                 src="./image/home/mangoes.jpg"
-                className="card-img-top"
+                className="card-img-top w-100"
                 alt="mangoes"
               />
               <button className="btn view rounded-pill w-50  position-absolute  recent_marg">Nutrition</button>
@@ -66,7 +66,7 @@ const Recent = () => {
               <div className="position-relative">
               <img
                 src="./image/home/man.jpg"
-                className="card-img-top"
+                className="card-img-top w-100"
                 alt="man"
               />
               <button className="btn view rounded-pill w-50  position-absolute  recent_marg">Nutrition</button>

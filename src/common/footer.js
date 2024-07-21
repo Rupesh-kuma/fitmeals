@@ -5,11 +5,8 @@ const Foot = () => {
         <>
 
             <img src="./image/footer.jpg" alt="wave" className="w-100" />
-            <div className="position-relative">
-                <div className="footer-height">
-                    <img src="./image/home/footer-bg.png" className="w-100" />
-                </div>
-                <div className="container position-absolute bottom-0 start-0 end-0 top-0">
+            <div className=" footer-image">
+                <div className="container  top-0">
                     <div className=" row row-cols-1 row-cols-md-4 g-1">
                         <div className="col">
                         <div className="card bg-transparent border-0">

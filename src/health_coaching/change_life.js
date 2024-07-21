@@ -8,7 +8,7 @@ const Life = () => {
         </div>
         <div className="row row-cols-1 row-cols-md-3 g-3">
           <div className="col">
-            <div className="card text-center p-4 border-0">
+            <div className="card text-center p-4 border-0 aline-life">
               <div className="rounded-circle p-3 life_img">
                 <img
                   src="./image/health/food.jpg"
@@ -27,7 +27,7 @@ const Life = () => {
             </div>
           </div>
           <div className="col">
-            <div className="card text-center p-4 border-0">
+            <div className="card text-center p-4 border-0 aline-life">
               <div className="rounded-circle p-3 life_img">
                 <img
                   src="./image/health/adult.jpg"
@@ -46,7 +46,7 @@ const Life = () => {
             </div>
           </div>
           <div className="col">
-            <div className="card text-center p-4 border-0">
+            <div className="card text-center p-4 border-0 aline-life">
               <div className="rounded-circle p-3 life_img">
                 <img
                   src="./image/health/doctor.jpg"

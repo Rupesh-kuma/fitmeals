@@ -3,18 +3,20 @@
     } */
 #fitmeals{
     background-color: #f3f5ed;
-    
+    height: auto;
 }
 
 #meals{
     background-color: #8ec038;
-    height: 760px;
+    /* height: 760px; */
     z-index: 1;
 }
 .meals_top{
-    bottom: 0;
-    top: 70%;
+    top: 60%;
     background-image: url("../veg_pattern.png");
+}
+.mar-order{
+    margin-top: 5%;
 }
 .nutrion_img{
     left: -90px;
@@ -87,7 +89,7 @@
     font-weight: bold;
 }
 .footer-height{
-    
+    height: auto;
     padding: 20px 0 0 0;
     background-color: #292d35;
 }
@@ -316,8 +318,58 @@ border-bottom: 0 solid transparent;
     color: #000;
     font-size: 26px;
   }
-  @media screen and (max-width: 374px) {
+
+  /* footer */
+  .footer-image{
+    background-image: url("../footer-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #292d35;
+  }
+
+  @media screen and (width: 374px) {
     .meals_top {
-      top: 91% !important;
+        bottom: 10rem;
+    }
+    .tables_marging {
+        padding: 0;
     }
   }
+
+
+
+@media screen and (max-width: 768px) {
+    .footer-height {
+        height: auto; /* Ensure the height adjusts responsively */
+    }
+
+    
+}
+
+@media screen and (max-width: 576px) {
+    .footer-height {
+        height: auto; /* Further adjust for smaller screens */
+    }
+    .meals_top {
+        top: 89%;
+    }
+    .mar-order{
+        margin-top: 178%;
+    }
+
+    .card-body p,
+    .card-title {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+
+    .footer_icon {
+        font-size: 12px; /* Adjust icon size for smaller screens */
+        padding: 0.5rem; /* Adjust padding for smaller screens */
+    }
+    .tables_marging {
+        padding: 0 0 !important;
+    }
+    .tables-ds{
+        display: grid   ;
+    }
+}

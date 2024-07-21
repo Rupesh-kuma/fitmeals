@@ -59,9 +59,10 @@ const Fitmeals = () => {
               alt="rotate"
             />
           </div>
-          <Meal />
         </div>
+        <Meal />
       </div>
+      
     </>
   );
 };

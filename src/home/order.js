@@ -1,7 +1,7 @@
 const Order = () => {
   return (
     <>
-      <div className="card bg-dark text-white mt-5 bg-attechmet">
+      <div className="card bg-dark text-white mar-order bg-attechmet">
         
         <div className="card-img-overlay text-center top-50 position-relative">
         <div className="d-flex justify-content-evenly position-absolute bottom-auto end-0 start-0">
