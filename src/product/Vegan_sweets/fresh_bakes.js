@@ -140,7 +140,7 @@ const Freshbakes = () => {
                     </ul>
                   </div>
                 </div>
-                <div className="row row-cols-1 row-cols-md-3 g-4 mt-3">
+                <div className="row row-cols-1 row-cols-md-1 row-cols-lg-3 row-cols-sm-1 g-4 mt-3">
                 {vegan.map((stro) => {
                   return (
                    

@@ -342,7 +342,30 @@ border-bottom: 0 solid transparent;
     .footer-height {
         height: auto; /* Ensure the height adjusts responsively */
     }
-
+    .meals_top {
+        top: 83%;
+    }
+    .mar-order{
+        margin-top: 144%;
+    }
+    .tables_marging {
+        padding: 0 0 !important;
+    }
+    
+}
+@media screen and (max-width: 980px) {
+    .footer-height {
+        height: auto; /* Ensure the height adjusts responsively */
+    }
+    .meals_top {
+        top: 80%;
+    }
+    .mar-order{
+        margin-top: 78%;
+    }
+    .tables_marging {
+        padding: 0 0 !important;
+    }
     
 }
 

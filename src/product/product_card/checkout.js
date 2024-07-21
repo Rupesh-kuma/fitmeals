@@ -350,7 +350,7 @@ const Checkout = () => {
           aria-labelledby="staticBackdropLabel"
           aria-hidden="true"
         >
-          <div className="modal-dialog modal_dialog">
+          <div className="modal-dialog modal_dialog p-3">
             <div className="modal-content modal_contents">
               <div className="modal-header">
                 <h5 className="modal-title" id="staticBackdropLabel">
@@ -372,7 +372,7 @@ const Checkout = () => {
                         <div className="col-md-4">
                           <img
                             src={products.url}
-                            className="img-fluid rounded-start w-50 m-2"
+                            className="img-fluid rounded-start w-25 m-2"
                             alt={products.title}
                           />
                         </div>
